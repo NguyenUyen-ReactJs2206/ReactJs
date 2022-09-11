@@ -9,7 +9,7 @@ const arrUsers=[
     "last_name": "Harhoff",
     "email": "eharhoff0@imageshack.us",
     "gender": "Male",
-    "age": 76,
+    "age": 76,  
     "salary": 18888
   }, 
   {

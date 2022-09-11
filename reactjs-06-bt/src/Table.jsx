@@ -6,7 +6,7 @@ export default function Table({listData}) {
         <table class="table table-hover">
           <thead>
             <tr>
-              <th>ID</th>
+              <th>ID</th>  
               <th>First Name</th>
               <th>Last Name</th>
               <th>Email</th>
