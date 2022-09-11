@@ -4,8 +4,8 @@ export default function Table({listData}) {
     return(
         <div class="container mt-3">
         <table class="table table-hover">
-          <thead>
-            <tr>
+          <thead>  
+            <tr> 
               <th>ID</th>
               <th>First Name</th>
               <th>Last Name</th>

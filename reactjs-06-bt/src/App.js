@@ -110,8 +110,8 @@ const arrUsers=[
     "gender": "Male",
     "age": 90,
     "salary": 16655
-  },
-  {
+  },  
+  {  
     "id": 13,
     "first_name": "Padget",
     "last_name": "Gore",
