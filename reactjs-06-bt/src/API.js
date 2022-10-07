@@ -20,7 +20,6 @@ export const account = [
 ]
 
 //danh sách loại tài khoản
-
 export const typeAccount = [
     {
         name: 'Tài khoản ngân hàng cùng tên',
