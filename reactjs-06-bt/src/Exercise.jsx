@@ -3,8 +3,6 @@ import React from 'react'
 export default function Exercise({ listData }) {
 
     return (
-
-
         <div>
             {listData.map((item) => (
                 <div className="container">
@@ -21,7 +19,7 @@ export default function Exercise({ listData }) {
                             <div className="card-body">
                                 <h5 className="card-title">{item.name}</h5>
                                 <p className="card-text">{item.opt.map(sub => (<div>{sub.name}</div>) )} </p>
-                                <Form.Select aria-label="Default select example">
+                                {/* <Form.Select aria-label="Default select example">
                                     {
                                         item.opt.map((sub) => (
                                             <option value={sub.name}>
@@ -29,7 +27,7 @@ export default function Exercise({ listData }) {
 
                                         ))
                                     }
-                                </Form.Select>
+                                </Form.Select> */}
                             </div>
                         </div>
 
