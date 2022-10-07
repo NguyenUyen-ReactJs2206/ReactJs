@@ -6,7 +6,9 @@ function Form() {
 
         return (
             <div className="Form">
-              <BTVN_Form account={account} typeAccount={typeAccount} banks={banks}/>{}
+              <BTVN_Form account={account} typeAccount={typeAccount} banks={banks}/>{
+                
+              }
             </div>
           );
         }    
